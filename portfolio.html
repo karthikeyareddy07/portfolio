@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>karthikeya reddy - Portfolio</title>
+    <style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #ececec;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: #222;
+        padding: 12px 0;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex; /* Enables horizontal alignment of buttons */
+        justify-content: center; /* Centers the navigation items */
+    }
+
+    nav li {
+        margin: 0 18px; /* Spacing between each navigation item */
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.1em;
+        padding: 10px 16px;
+        border-radius: 4px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+        background-color: #ff9e00;
+        color: #222;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 40px auto;
+        background-color: #fff;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 2.8em;
+        font-weight: 500;
+        color: #333;
+    }
+
+    h2 {
+        font-size: 2em;
+        color: #666;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 1.1em;
+        color: #444;
+        line-height: 1.8em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .profile-img {
+        display: block;
+        max-width: 330px;
+        height: auto;
+        border-radius: 8px;
+        margin: 25px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    table {
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+    }
+
+    .details td {
+        padding: 12px;
+        font-size: 1.2em;
+        color: #333;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .details td:first-child {
+        color: #ff9e00;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .details td:last-child {
+        color: #666;
+    }
+
+    @media screen and (max-width: 768px) {
+        h1 {
+            font-size: 2.2em;
+        }
+
+        h2 {
+            font-size: 1.6em;
+        }
+
+        nav a {
+            font-size: 1em;
+        }
+
+        .container {
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .profile-img {
+            max-width: 280px;
+        }
+
+        .details td {
+            font-size: 1em;
+        }
+    }
+</style>
+
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="HOME.html">Home</a></li>
+            <li><a href="ABOUTME.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="gallary.html">Gallery</a></li>
+            <li><a href="new_form.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="container">
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+            <img src="karthik.jpeg" alt="Karthikeya Reddy - Profile Picture" class="profile-img">
+            <h2>Hi, I'm Karthikeya Reddy</h2>
+            <p>I am a passionate and driven software developer with a strong foundation in coding and problem-solving. With a love for continuous learning, I strive to create innovative, user-centric software solutions.</p>
+        </header>
+
+        <!-- Details Table -->
+        <table class="details">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Educational Background</td>
+                    <td>B.Tech and M.Tech in Computer Science, SRM University</td>
+                </tr>
+                <tr>
+                    <td>Professional Experience</td>
+                    <td>
+                        - 1-year internship at Wipro<br>
+                        - 3 years as a Developer at Microsoft, working on cutting-edge technologies
+                    </td>
+                </tr>
+                <tr>
+                    <td>Technical Skills</td>
+                    <td>
+                        - Programming languages: Java, Python, C++, JavaScript<br>
+                        - Web technologies: HTML, CSS, React, Angular, Vue.js<br>
+                        - Database management: SQL, MySQL, PostgreSQL, MongoDB
+                    </td>
+                </tr>
+                <tr>
+                    <td>Key Strengths</td>
+                    <td>Continuous Learning, Effective Time Management, Strong Networking</td>
+                </tr>
+                <tr>
+                    <td>Hobbies & Interests</td>
+                    <td>Blogging, Gaming, Traveling, Listening to Music, Fitness</td>
+                </tr>
+                <tr>
+                    <td>Contact</td>
+                    <td>Phone: 7013496987</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>

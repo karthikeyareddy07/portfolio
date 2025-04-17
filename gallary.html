@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('pexels-padrinan-255379.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 3px solid #ffa800;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    font-size: 1.1em;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ffa800;
+    color: black;
+    transform: scale(1.1);
+    border-radius: 12px;
+}
+
+.highlight img {
+    transition: 0.5s ease-in-out;
+}
+
+.highlight img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-top: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #fff;
+    line-height: 1.8em;
+    margin: 20px 0;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav a {
+        margin: 10px 0;
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+</style>
+</head>
+<body>
+
+    <nav>
+        <a href="HOME(open this).html">HOME</a>
+        <a href="ABOUTME.html">About Me</a>
+        <a href="portfolio.html">Resume</a>
+        <a href="gallary.html">Gallery</a>
+        <a href="new form.html">Contact Me</a>
+    </nav>
+
+    <div class="highlight">
+        <center>
+            <h1><b><u>MY GALLERY</u></b></h1>
+        </center>
+        <div class="album">
+            <div class="responsive-container-block bg">
+                <div class="responsive-container-block img-cont">
+                    <img class="img" src="karthik.jpeg" width="500" height="400">
+                    <img class="img" src="singapore.jpg" width="500" height="400">
+                    <img class="img img-last" src="image (2).jpg" width="500" height="400">
+                    <img class="img img-last" src="image (3).jpg" width="500" height="400">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
